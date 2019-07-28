@@ -1,0 +1,7 @@
+@workout.each do |workout|
+  {
+   name: @workout.name,
+   # description: @workout.description,
+   # muscle: @workout.muscle_group
+  }
+end
