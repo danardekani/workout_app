@@ -1,7 +1,7 @@
 class Api::WorkoutController < ApplicationController
 
   def index
-    @workout = Workout.all
+    @workouts = Workout.all
     render 'index.json.jb'
   end
 
